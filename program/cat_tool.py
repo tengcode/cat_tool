@@ -33,13 +33,12 @@ class MyWidget(QtWidgets.QWidget):
             msg_box.setStandardButtons(QtWidgets.QMessageBox.Ok)
         else:
             msg_box.information(self, "Error", f"文件夹路径不正确，请检查。")
-        # ret = msg_box.exec()
 
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
 
     widget = MyWidget()
-    widget.resize(300, 200)
+    widget.resize(500, 400)
     widget.show()
     sys.exit(app.exec())
