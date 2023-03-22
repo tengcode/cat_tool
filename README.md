@@ -1,2 +1,2 @@
 # cat_tool
-used to cat excel together
+This is a tool used to cat excel together
