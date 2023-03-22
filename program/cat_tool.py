@@ -1,7 +1,7 @@
 import os
 import sys
 from PySide6 import QtCore, QtWidgets, QtGui
-import cat_excel
+from program import cat_excel
 # import xlsxwriter as xw
 
 
