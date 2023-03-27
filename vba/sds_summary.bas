@@ -1,6 +1,6 @@
 Sub SDS_summary()
     'for all study by Bruce Ma
-    '2021-10-11 适用于赛诺菲的sds文件
+    '2021-10-11 适用于RAVE的部分sds文件
     Dim i, m, n, o, a, b, c, d As Long, form1(), form2(), folder1()
     'find MatrixMTXCRF
     Sheets.Add: ActiveSheet.Name = "SDS summary"
