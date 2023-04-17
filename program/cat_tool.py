@@ -1,3 +1,9 @@
+"""
+Purpose    : cat excel tool
+Programmer : Bruce Ma
+Start date : 2023-04-11
+"""
+
 import os
 import sys
 from PySide6 import QtCore, QtWidgets, QtGui
