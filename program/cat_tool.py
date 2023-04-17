@@ -20,7 +20,7 @@ class MyWidget(QtWidgets.QWidget):
         self.text_label = QtWidgets.QLabel("支持的文件格式：xlsx，\n"
                                            "请将文件放到同一个文件夹，并输入路径：")
         self.text_box = QtWidgets.QLineEdit()
-        self.name_label = QtWidgets.QLabel("请输入新文件名并避免重复，默认名称为'数据汇总'。")
+        self.name_label = QtWidgets.QLabel("请输入新文件名并避免重复(默认名称为'数据汇总'):")
         self.name_box = QtWidgets.QLineEdit()
         self.type_box = QtWidgets.QComboBox()
         self.type_box.addItem('合并到不同sheet')
