@@ -1,1 +1,19 @@
+QWidget {
+    font-family: Microsoft YaHei UI;
+    font-size: 16px;
+    color: #000000;
+}
 
+QPushButton {
+    background-color: #3A7FF6;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+QPushButton:hover {
+    background-color: #FFA3A5;
+}
+
+QPushButton:click {
+    background-color: #FFA3A5;
+}
