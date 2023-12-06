@@ -1,10 +1,10 @@
 import sys
 from PySide6 import QtWidgets
-from script import cat_tool
+from script import cat_ui
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
-    my_window = cat_tool.MyWidget()
+    my_window = cat_ui.MyWidget()
     style_file = './script/tool.qss'
     # style_sheet = QSSLoader.read_qss_file(style_file)
     with open(style_file, 'r', encoding='UTF-8') as file:
