@@ -4,7 +4,7 @@ from script import cat_ui
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
-    my_window = cat_ui.MyWidget()
+    my_window = cat_ui.MyWindow()
     style_file = './script/tool.qss'
     with open(style_file, 'r', encoding='UTF-8') as file:
         my_window.setStyleSheet(file.read())
